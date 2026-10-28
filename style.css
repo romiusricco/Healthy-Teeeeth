@@ -1,0 +1,42 @@
+body {
+  font-family: "Nunito Sans", "Arial", sans-serif;
+}
+
+.text-block {
+  color: #e9ecec;
+}
+
+.text-block h1 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  text-align: left;
+}
+
+.text-block p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.text-block h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.text-block h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text-block li {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.text-block a {
+  color: #e9ecec;
+  font-weight: 500;
+  text-decoration: underline;
+}
