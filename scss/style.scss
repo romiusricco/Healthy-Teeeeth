@@ -1,0 +1,10 @@
+// Global
+@use "global/variables" as *;
+@use "global/reset";
+@use "global/base";
+
+// Blocks
+@use "blocks/header";
+@use "blocks/breadcrumbs";
+@use "blocks/text-block";
+@use "blocks/footer";

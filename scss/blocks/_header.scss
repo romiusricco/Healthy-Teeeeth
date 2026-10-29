@@ -1,0 +1,56 @@
+@use "../global/variables" as *;
+
+.header {
+  font-family: $font-nunito;
+  background-color: $color-bg-main;
+  padding: 2px 0;
+  border-bottom: 1px solid rgba($color-white, 0.1);
+
+  &__content {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 193px 1fr 193px;
+  }
+
+  &__logo-link {
+    display: flex;
+  }
+
+  &__logo {
+    height: 60px;
+    width: 120px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  &__item:not(:last-child) {
+    margin: 0 48px 0 0;
+  }
+
+  &__link {
+    color: $color-text;
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  &__signup {
+    color: $color-bg-main;
+    background-color: $color-accent;
+    border-radius: 60px;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}

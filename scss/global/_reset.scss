@@ -1,0 +1,19 @@
+@use "variables" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-bg-main;
+  margin: 0;
+  min-width: 1260px;
+  padding: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
