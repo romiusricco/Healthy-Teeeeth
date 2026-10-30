@@ -1,0 +1,41 @@
+@use "../global/variables" as *;
+
+.breadcrumbs {
+  font-family: $font-nunito;
+  padding: 15px 0 0;
+  margin: 0 0 24px 0;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item:not(:last-child) {
+    margin: 0 20px 0 0;
+  }
+
+  &__link {
+    font-size: 13px;
+    line-height: 16px;
+    color: $color-accent;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+
+    &:not(span) {
+      color: $color-accent;
+
+      &::after {
+        content: "/";
+        color: $color-accent;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -12px;
+      }
+    }
+  }
+}

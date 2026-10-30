@@ -1,0 +1,15 @@
+@use "variables" as *;
+
+body {
+  // Базовый шрифт для всей страницы (будет переопределяться в блоках)
+  font-family: $font-rubik, $font-nunito, "Arial", sans-serif;
+  font-weight: 400;
+  color: $color-text;
+}
+
+.container {
+  width: 100%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: 0 $container-padding;
+}
