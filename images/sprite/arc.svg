@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="420">
+  <defs>
+    <clipPath id="arc-clip">
+      <path d="M 0 126 C 200 0, 820 0, 1020 126 L 1020 420 L 0 420 Z"/>
+    </clipPath>
+  </defs>
+</svg>
