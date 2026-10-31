@@ -71,7 +71,7 @@
 | `images/sprite.svg` | Изменён | Добавлен SVG-клип `arc-clip` для арочной обрезки главного изображения. |
 | `images/sprite/arc.svg` | Добавлен | Добавлен SVG-ресурс с формой арки. |
 
-Для главного изображения в `.text-block--sedation` используется `clip-path: url("../images/sprite.svg#arc-clip")`. В коде арка реализована SVG-клипом, а не `clip-path: polygon()`.
+Для главного изображения в `.text-block--sedation` используется `clip-path: url("../images/sprite.svg#arc-clip")`. В коде арка реализована SVG-клипом
 
 Модификатор `.text-block__text--quote` задаёт абзацу с цитатой нижний отступ 60 px и ограничивает ширину 780 px.
 
