@@ -1,0 +1,48 @@
+@use "../global/variables" as *;
+
+// Модификатор для страницы седации
+.text-block--sedation {
+  .text-block__image--main {
+    border-radius: 0;
+    clip-path: url("../images/sprite.svg#arc-clip");
+  }
+  // 1. Переопределение шрифта на Nunito Sans для заголовков и ячеек таблицы
+  .text-block__title,
+  .text-block__subtitle,
+  .text-block__table-header,
+  .text-block__table-cell {
+    font-family: $font-nunito;
+    letter-spacing: 0.01em;
+  }
+
+  .text-block__subtitle--small {
+    margin-bottom: 0;
+    letter-spacing: 0.03em;
+  }
+
+  ul.text-block__list {
+    margin-top: 10px;
+    margin-bottom: 18px;
+  }
+
+  // Увеличенный нижний отступ для абзаца с цитатой пациента
+  .text-block__text--quote {
+    margin-bottom: 60px;
+    max-width: 780px;
+  }
+
+  // 2. Переопределение ширины столбцов таблицы
+  .text-block__table-header {
+    &:first-child {
+      width: 400px;
+    }
+
+    &:nth-child(2) {
+      width: 200px;
+    }
+
+    &:last-child {
+      width: 200px;
+    }
+  }
+}

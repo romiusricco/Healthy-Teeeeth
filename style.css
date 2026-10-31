@@ -294,6 +294,7 @@ body {
   border-collapse: collapse;
   margin: 0 auto 17px;
   table-layout: fixed;
+  background: #2a4f47;
 }
 .text-block__table-row {
   border-bottom: 1px solid #4b6c66;
@@ -330,6 +331,39 @@ body {
   line-height: 20px;
   padding: 20px 22px;
   vertical-align: top;
+}
+
+.text-block--sedation .text-block__image--main {
+  border-radius: 0;
+  clip-path: url("../images/sprite.svg#arc-clip");
+}
+.text-block--sedation .text-block__title,
+.text-block--sedation .text-block__subtitle,
+.text-block--sedation .text-block__table-header,
+.text-block--sedation .text-block__table-cell {
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 0.01em;
+}
+.text-block--sedation .text-block__subtitle--small {
+  margin-bottom: 0;
+  letter-spacing: 0.03em;
+}
+.text-block--sedation ul.text-block__list {
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+.text-block--sedation .text-block__text--quote {
+  margin-bottom: 60px;
+  max-width: 780px;
+}
+.text-block--sedation .text-block__table-header:first-child {
+  width: 400px;
+}
+.text-block--sedation .text-block__table-header:nth-child(2) {
+  width: 200px;
+}
+.text-block--sedation .text-block__table-header:last-child {
+  width: 200px;
 }
 
 .footer {
