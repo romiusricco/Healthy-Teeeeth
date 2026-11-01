@@ -1,0 +1,27 @@
+@use "../global/variables" as *;
+
+// Модификатор для страницы блога / статьи
+.text-block--blog {
+  // 1. Типографика: Nunito Sans для заголовков (вместо базового Rubik)
+  // + чуть более плотный межбуквенный интервал для заголовков статьи
+  .text-block__title,
+  .text-block__subtitle {
+    font-family: $font-nunito;
+    letter-spacing: 0.02em;
+  }
+
+  // 2. Убираем верхний отступ у figure, если они идут сразу после заголовка
+  .text-block__figure--zeromt {
+    margin-top: 0;
+  }
+
+  // 3. Ограничиваем ширину выделенного абзаца чуть сильнее базовых 800px
+  .text-block__text--quote {
+    max-width: 780px;
+  }
+
+  // 4. Увеличенный нижний отступ для пунктов нумерованного списка (ol)
+  .text-block__item--mbbg {
+    margin-bottom: 19px;
+  }
+}

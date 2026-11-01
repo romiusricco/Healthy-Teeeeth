@@ -366,6 +366,21 @@ body {
   width: 200px;
 }
 
+.text-block--blog .text-block__title,
+.text-block--blog .text-block__subtitle {
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 0.02em;
+}
+.text-block--blog .text-block__figure--zeromt {
+  margin-top: 0;
+}
+.text-block--blog .text-block__text--quote {
+  max-width: 780px;
+}
+.text-block--blog .text-block__item--mbbg {
+  margin-bottom: 19px;
+}
+
 .footer {
   background-color: #212121;
   font-family: "Nunito Sans", sans-serif;
